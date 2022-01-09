@@ -14,6 +14,7 @@ export default class componentName extends Component {
 
     return (
       <div>
+        <input type={'email'} onChange={(event) => { this.setState({ email: event.target.value }) }}></input>
         <button title='Submit' onClick={() => alert(this.state.email)}></button>
       </div>
     );
