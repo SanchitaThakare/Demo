@@ -1,0 +1,11 @@
+.div{
+  color: #000;
+  background-color: aqua;
+  padding: 2%;
+}
+.div h1{
+  font-size:xx-small;
+}
+.div p{
+  color:blue;
+}
