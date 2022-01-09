@@ -14,6 +14,7 @@ export default class componentName extends Component {
 
     return (
       <div>
+        <button title='Submit' onClick={() => alert(this.state.email)}></button>
       </div>
     );
   }
